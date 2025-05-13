@@ -5,7 +5,7 @@ import { navLinks } from "./nav-links";
 
 export const Navbar = () => {
   return (
-    <nav className="flex justify-between gap-10 items-center text-sm sticky top-0 w-full">
+    <nav className="flex justify-between gap-10 items-center text-sm sticky top-0 w-full p-4">
       <Logo className="text-lg" />
       <ul className="flex gap-3 items-center">
         {navLinks.map(({ href, label }) => (
